@@ -1,0 +1,4 @@
+interface:
+  display_name: "CampusHub Backend"
+  short_description: "Spring Boot backend for CampusHub."
+  default_prompt: "Use this skill to implement CampusHub Spring Boot APIs, authentication, services, order workflow, notifications, admin endpoints, and tests."

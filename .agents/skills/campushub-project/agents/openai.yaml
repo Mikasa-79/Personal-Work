@@ -1,0 +1,4 @@
+interface:
+  display_name: "CampusHub Project"
+  short_description: "CampusHub course project planning."
+  default_prompt: "Use this skill to plan CampusHub requirements, architecture, milestones, MVP scope, AI collaboration evidence, and full-stack coordination."

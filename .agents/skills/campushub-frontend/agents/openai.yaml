@@ -1,0 +1,4 @@
+interface:
+  display_name: "CampusHub Frontend"
+  short_description: "Vue frontend for CampusHub app."
+  default_prompt: "Use this skill to implement CampusHub Vue pages, components, routing, state, API clients, forms, dashboard UI, and frontend tests."

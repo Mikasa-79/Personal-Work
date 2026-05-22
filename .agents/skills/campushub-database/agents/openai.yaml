@@ -1,0 +1,4 @@
+interface:
+  display_name: "CampusHub Database"
+  short_description: "MySQL data model for CampusHub."
+  default_prompt: "Use this skill to design CampusHub MySQL schema, migrations, indexes, constraints, seed data, Redis usage, and database verification."
