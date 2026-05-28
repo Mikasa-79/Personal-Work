@@ -1,0 +1,14 @@
+package com.campushub.repository;
+
+import com.campushub.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByStudentNo(String studentNo);
+    Optional<User> findByAuthToken(String authToken);
+    boolean existsByStudentNo(String studentNo);
+}
